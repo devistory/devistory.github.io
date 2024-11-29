@@ -10,7 +10,11 @@ image:
   alt: GitHub
 ---
 
-이 글은 현재 블로그에 적용되어 있는 `jekyll`의 `chirpy` Theme를 기준으로 GitHub Page를 구성하는 방법에 대해서 정리한 글 입니다.
+이 글은 현재 블로그에 적용되어 있는 `jekyll`의 `chirpy` Theme를 기준으로 `Windows`에서 GitHub Page를 구성하는 방법에 대해서 정리한 글 입니다.
+
+<br/>
+
+---
 
 ## 사전 준비
 GitHub Page를 구성하기 위해서는 다음과 같은 내용들이 사전에 필요합니다.
@@ -23,6 +27,7 @@ GitHub Page를 구성하기 위해서는 다음과 같은 내용들이 사전에
 > \- `Node.js`는 `chirpy` theme를 초기화할 때 필요
 {: .prompt-info }
 
+---
 
 ## 진행 순서
 - GitHub Repository 생성
@@ -30,6 +35,7 @@ GitHub Page를 구성하기 위해서는 다음과 같은 내용들이 사전에
 - 환경 설정
 - GitHub Page 배포
 
+---
 
 ## GitHub Repository 생성
 `Repository`는 직접 생성 후 `chirpy` Theme를 `Download Zip`하여 직접 연결하는 방법이 있지만 `fork`하는 방식으로 진행 하겠습니다.
@@ -61,6 +67,8 @@ _Branch setting_
 ![Branch setting](/assets/img/posts/git_github/github-page_04.png)
 _Branch setting_
 <br/>
+
+---
 
 ## local 환경에 설치
 
@@ -132,7 +140,9 @@ _jekyll chirpy_
 
 <br/>
 
-## 📌 환경 설정
+---
+
+## 환경 설정
 `chirpy` Theme의 설정은 `_config.yml` 파일을 수정 합니다.
 <br/>
 
@@ -152,6 +162,8 @@ url: "https://devistory.github.io"      # 자신의 github page url 주소
 
 <br/>
 
+---
+
 ## GitHub Page 배포
 
 - 확인용 첫 post 작성
@@ -170,75 +182,52 @@ hidden: true
 ## 첫 번째 Post 입니다.
 
 ```
+<br/>
 
 
 - 수정 내용 `git push `
   
 ```shell
 git add -A
+git status
 git commit -m "first commit"
 git push
 ```
+<br/>
 
 
+- `GitHub Actions` 진행 후 정상 빌드되면 `GitHub Page` 배포 완료
+
+![GitHub Actions](/assets/img/posts/git_github/github-page_08.png)
+_GitHub Actions Building_
+
+![GitHub Actions](/assets/img/posts/git_github/github-page_09.png)
+_GitHub Actions Build Success_
+<br/>
+
+- `https://devistory.github.io/` 접속, post 확인
+  
+![first post](/assets/img/posts/git_github/github-page_10.png)
+_first post_
 
 
+![first post](/assets/img/posts/git_github/github-page_11.png)
+_first post_
 
 
-
-## 제목3
-- [ ] 빈 박스
-- [x] 체크된 박스
-- [X] 체크된 박스
-
-
-## 제목4
-```markdown
-| header1 | header2 | header3 |
-| :------ | :-----: | ------: |
-| AAA     |   BBB   |     CCC |
-| DDD     |   EEE   |     FFF |
-| GGG     |   HHH   |     III |
-
-```
-
-| header1 | header2 | header3 |
-| :------ | :-----: | ------: |
-| AAA     |   BBB   |     CCC |
-| DDD     |   EEE   |     FFF |
-| GGG     |   HHH   |     III |
-
-
-| header1 | header2 | header3 |
-| ------- | ------- | ------- |
-| AAA     | BBB     | CCC     |
-| 111     | 222     | 333     |
-| 가가가  | 나나나  | 다다다  |
-
-
-> info prompt<br/>
-> \- 다중??<br/>
-> \- 다중??
+> 참고사항<br/>
+> `git push` 후에 `GitHub Page`로 바로 반영되지 않고 몇분 소요되는 경우도 있습니다.
 {: .prompt-info }
 
 
-> tip prompt
-{: .prompt-tip }
+<br/>
 
-> warning
-{: .prompt-warning }
+---
 
-> danger
-{: .prompt-danger }
+## 마무리
+`GitHub Page`를 만들고 처음 작성하는 post입니다. `GitHub Page`를 만들면서 여러 문제가 있었지만 다음에 다시 만들 일이 있을 경우 같은 문제로 시간을 소비하지 않도록 `GitHub Page`를 생성에 성공한 내용을 정리하였습니다.<br/>
 
-
-{% raw %}
-```liquid
-{% if product.title contains 'Pack' %}
-  This product's title contains the word Pack.
-{% endif %}
-```
-{% endraw %}
-
-
-뤼키드??
+<br/>
+> 해당 글은 틀린 내용 및 새로운 내용이 확인되면 언제든 수정될 수 있습니다.
+{: .prompt-info }
+<br/>
