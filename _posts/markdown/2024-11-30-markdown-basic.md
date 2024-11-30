@@ -245,15 +245,15 @@ _BlockQuote Example results_
 	* <>기호 없어도 주소 형식 텍스트 사용시 자동 link
   
 ```markdown
-구글 : [Google](http://www.google.com "구글")
-다음 : [Daum](http://www.daum.net)
+구글 : [Google](https://www.google.com "구글")
+다음 : [Daum](https://www.daum.net)
 네이버 : <https://www.naver.com>
 ```
 
 >
-구글 : [Google](http://www.google.com "구글")
+구글 : [Google](https://www.google.com "구글")
 <br/>
-다음 : [Daum](http://www.daum.net)
+다음 : [Daum](https://www.daum.net)
 <br/>
 네이버 : <https://www.naver.com>
 
