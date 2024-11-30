@@ -247,7 +247,7 @@ _BlockQuote Example results_
 ```markdown
 구글 : [Google](www.google.com "구글")
 다음 : [Daum](www.daum.net)
-네이버 : <http://www.naver.com>
+네이버 : <https://www.naver.com>
 ```
 
 >
@@ -255,7 +255,7 @@ _BlockQuote Example results_
 <br/>
 다음 : [Daum](www.daum.net)
 <br/>
-네이버 : <http://www.naver.com>
+네이버 : <https://www.naver.com>
 
 <br/>
 
