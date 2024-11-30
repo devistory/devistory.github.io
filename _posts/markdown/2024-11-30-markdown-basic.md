@@ -252,9 +252,7 @@ _BlockQuote Example results_
 
 >
 구글 : [Google](http://www.google.com "구글")
-<br/>
 다음 : [Daum](https://daum.net)
-<br/>
 네이버 : <http://www.naver.com>
 
 <br/>
