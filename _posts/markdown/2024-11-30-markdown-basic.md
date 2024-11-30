@@ -7,7 +7,7 @@ tags: [Markdown]
 hidden: false
 image:
   path: /assets/img/logo/markdown_logo.png
-  alt: GitHub
+  alt: Markdown
 ---
 
 이 글은 .md파일을 작성하기 위한 기본적인 `Markdown` 문법에 대하여 정리하고자 합니다.

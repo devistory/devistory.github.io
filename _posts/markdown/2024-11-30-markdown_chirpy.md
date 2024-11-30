@@ -7,7 +7,7 @@ tags: [Markdown, Chirpy]
 hidden: false
 image:
   path: /assets/img/logo/markdown_logo.png
-  alt: GitHub
+  alt: Markdown
 ---
 
 이 글은 `jekyll`의 `chirpy` Theme에서 사용되는 `Markdown`에 대하여 정리하고자 합니다.
