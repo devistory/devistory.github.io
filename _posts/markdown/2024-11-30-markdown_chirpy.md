@@ -10,7 +10,8 @@ image:
   alt: Markdown
 ---
 
-이 글은 `jekyll`의 `chirpy` Theme에서 사용되는 `Markdown`에 대하여 정리하고자 합니다.
+이 글은 `jekyll`의 `chirpy` Theme에서 사용되는 `Markdown`에 대하여 정리하고자 합니다. <br/>
+`Markdown`에 대한 기본 문법은 [여기](https://devistory.github.io/posts/markdown-basic/ "markdown-basic")를 참고하시기 바랍니다.
 
 <br>
 
@@ -147,7 +148,64 @@ _Image resizing Example results_
 > danger prompt
 {: .prompt-danger }
 
+<br/>
 
+---
+
+## 인라인 코드 (Inline Code)
+
+### 파일경로 강조 (FilePath highlight)
+ - \`text\`뒤에 `{: .filepath}`를 추가하여 사용
+
+```markdown
+일반 text : /path/tmp/file.md
+file path : `/path/tmp/file.md`{: .filepath}
+```
+
+일반 text : /path/tmp/file.md <br/>
+file path : `/path/tmp/file.md`{: .filepath}
+
+<br/>
+
+---
+
+## 코드블럭 (CodeBlock)
+### 줄 번호 (Line Number)
+- 기본은 `Line Number`가 표현 되지만 코드블럭 하단에 `{: nolineno }`를 추가하면 `Line Number`를 비활성화 할 수 있습니다.
+
+````markdown
+```markdown
+- No line setting
+- No line setting
+- No line setting
+```
+{: .nolineno }
+````
+
+```markdown
+- No line setting
+- No line setting
+- No line setting
+```
+{: .nolineno }
+
+<br/>
+
+### 파일 이름 지정 (Specifying the Filename)
+ - 기본은 코드블럭에 지정한 언어를 표현하지만 `{: file=파일이름 }`를 추가하면 파일이름을 표현 할 수 있습니다.
+  
+
+````markdown
+```markdown
+file path 표시
+```
+{: file="path/tmp/file" }
+````
+
+```markdown
+file path 표시
+```
+{: file="path/tmp/file" }
 
 <br/>
 
@@ -161,7 +219,7 @@ _Image resizing Example results_
 
 
 <br/>
-> 해당 글은 틀린 내용 및 새로운 내용이 확인되면 언제든 수정될 수 있습니다.
+> 해당 글은 잘못되거나 새로운 내용이 확인되면 언제든 수정될 수 있습니다.
 {: .prompt-info }
 <br/>
 

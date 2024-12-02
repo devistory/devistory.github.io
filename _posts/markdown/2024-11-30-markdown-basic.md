@@ -194,6 +194,20 @@ _Emphasis Example results_
 
 ---
 
+## 인라인 코드 (Inline Code)
+ - 인라인 코드로 사용할 텍스트 양 끝에 \`기호(backtick) 사용
+
+```markdown
+`인라인 코드(Inline Code)` 사용 예시입니다.
+```
+
+>
+`인라인 코드(Inline Code)` 사용 예시입니다.
+
+<br>
+
+---
+
 ## 코드블럭 (CodeBlock)
 - 한줄 코드블럭 : tab 이후 텍스트 작성
 - 여러줄 코드블럭 : ` 기호(backtick) 3개로 텍스트 감싸기
@@ -212,6 +226,26 @@ _Emphasis Example results_
 
 ![CodeBlock Example results](/assets/img/posts/markdown/markdown_08.png)
 _CodeBlock Example results_
+
+
+
+
+> Tip
+> - 코드 블럭 작성 형태 자체를 표현 하려면 `기호(backtick) 4개 사용
+>
+> `````markdown
+> ````markdown
+> ```markdown
+> 코드 블럭 내에 코드 블럭 작성 표현
+> ```
+> ````
+> `````
+> 
+> 
+![CodeBlock Example results](/assets/img/posts/markdown/markdown_13.png)
+_CodeBlock Example results_
+{: .prompt-tip }
+
 
 
 <br>
@@ -391,7 +425,7 @@ _Line Breaks Example results_
 
 
 <br/>
-> 해당 글은 틀린 내용 및 새로운 내용이 확인되면 언제든 수정될 수 있습니다.
+> 해당 글은 잘못되거나 새로운 내용이 확인되면 언제든 수정될 수 있습니다.
 {: .prompt-info }
 <br/>
 
