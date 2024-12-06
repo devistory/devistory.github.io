@@ -156,7 +156,7 @@ _Table Example results_
 _Table Example results_
 
 
-> 참고사항<br/>
+> **참고사항** <br/>
 > \- Velog에서는 table 정렬이 적용 안됨
 {: .prompt-info }
 
@@ -230,7 +230,7 @@ _CodeBlock Example results_
 
 
 
-> Tip
+> **Tip**<br/>
 > - 코드 블럭 작성 형태 자체를 표현 하려면 `기호(backtick) 4개 사용
 >
 > `````markdown

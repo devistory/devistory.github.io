@@ -42,7 +42,7 @@ _Image Caption Example results_
 _Image resizing Example results_
 
 
-> 참고사항<br/>
+> **참고사항**<br/>
 > \- `chirpy` ver 5.0.0 이상부터는 약어를 지원합니다.<br/>
 > \- `width` : `w`<br/>
 > \- `height` : `h`
@@ -90,7 +90,7 @@ _Image resizing Example results_
 <br/>
 <br/>
 
-> 주의사항<br/>
+> **주의사항**<br/>
 > \- 위치 지정을 사용하면 caption을 추가하면 안됩니다.
 {: .prompt-warning }
 
@@ -212,10 +212,13 @@ file path 표시
 ---
 
 ## 마무리
-`Markdown`으로 기본적으로 표현할 수 있는 것 이외에 `chirpy` Theme에서 사용되는 `Markdown`에 대해서 정리하였습니다. 해당 내용 이외에도 더 많은 내용이 있기 때문에 필요하시면 아래 Link를 참조하시면 됩니다.
+`Markdown`으로 기본적으로 표현할 수 있는 것 이외에 `chirpy` Theme에서 사용되는 `Markdown`에 대해서 정리하였습니다. 해당 내용 이외에도 더 많은 내용이 있기 때문에 필요하시면 `참고 자료`를 참조하시면 됩니다.
 
+<br/>
 
-<https://chirpy.cotes.page/posts/write-a-new-post/>
+📑 **참고 자료**
+- <https://chirpy.cotes.page/posts/write-a-new-post/>
+
 
 
 <br/>

@@ -22,7 +22,7 @@ GitHub Page를 구성하기 위해서는 다음과 같은 내용들이 사전에
 - Ruby (ver 3.3.6)
 - Node.js (ver 20.15.0)
 
-> 참고사항<br/>
+> **참고사항**<br/>
 > \- `Ruby`, `Node.js`의 version은 제가 설치 했던 환경 정보 입니다.<br/>
 > \- `Node.js`는 `chirpy` theme를 초기화할 때 필요
 {: .prompt-info }
@@ -126,7 +126,7 @@ bundle exec jekyll serve
 
 <br/>
 
-> 참고사항<br/>
+> **참고사항**<br/>
 > Default port 4000<br/> 
 >   \-`127.0.0.1:4000`<br/>
 >   \-`localhost:4000`
@@ -155,7 +155,7 @@ url: "https://devistory.github.io"      # 자신의 github page url 주소
 ```
 
 
-> 참고사항<br/>
+> **참고사항**<br/>
 > \- `_config.yml`을 수정 후 적용하려면 **서비스를 재시작**해야 합니다.<br/>
 > \- 위 내용은 `_config.yml`파일의 일부 내용이며 각 항목의 설명은 주석을 참조하면 됩니다.
 {: .prompt-info }
@@ -215,7 +215,7 @@ _first post_
 _first post_
 
 
-> 참고사항<br/>
+> **참고사항**<br/>
 > `git push` 후에 `GitHub Page`로 바로 반영되지 않고 몇분 소요되는 경우도 있습니다.
 {: .prompt-info }
 

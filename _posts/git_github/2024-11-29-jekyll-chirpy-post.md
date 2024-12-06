@@ -23,7 +23,7 @@ GitHub Page에 글을 쓰기 위해서는 다음과 같은 내용들이 사전�
 - Markdown
 
 
-> 참고사항<br/>
+> **참고사항**<br/>
 > `VS Code`는 필수는 아니지만 `Markdown`을 지원하는 Editor가 있으면 좀 더 편리하게 글을 작성할 수 있습니다.
 {: .prompt-info }
 
@@ -131,7 +131,7 @@ _Post 내용_
 ## 이미지 추가
  - 이미지는 `/assets/img` Directory에 저장하여 사용
 
-> 주의<br/>
+> **주의**<br/>
 >  \- 위 경로가 아니면 이미지가 제대로 호출되지 않습니다.
 {: .prompt-warning }
 
