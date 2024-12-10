@@ -23,6 +23,12 @@ image:
 CSS는 하나 이상의 선택자를 사용할 수 있으며 `결합 선택자`는 선택자 간의 관계를 설정하여 사용합니다.
 <br/>
 
+> **참고 사항**<br/>
+>![Descendant selector example result](/assets/img/posts/css/css_selector_16.png)
+{: .prompt-info }
+
+<br/>
+
 ### 자손 선택자(Descendant selector)
 - `자손 선택자(Descendant selector)`는 `'A'`요소(element) 하위에 있는 모든 `'B'`요소(element)를 선택
 - `A B` 처럼 요소(element) 사이에 `공백(single space)`을 사용
