@@ -228,16 +228,6 @@ _Token authentication_
 
 <br/>
 
-> **Tip** <br/>
-> `css`를 간단하게 사용해 보고 싶으시면 `CodePen`에서 연습해 볼 수 있습니다.<br/>
-> [CodePen](https://codepen.io/mobify/pen/DRyBoB) 
-{: .prompt-tip }
-
-
-<br/>
-> 해당 글은 잘못되거나 새로운 내용이 확인되면 언제든 수정될 수 있습니다.
-{: .prompt-info }
-<br/>
 
 > 🔖 **이미지 출처**<br/>
 > Icons made by various authors from [www.flaticon.com](https://www.flaticon.com)
@@ -252,3 +242,8 @@ _Token authentication_
 > - Icon made by Chanut-is-Industries from www.flaticon.com
 > 
 >*Thanks to the creators who created these great icons.*
+
+<br/>
+> 해당 글은 잘못되거나 새로운 내용이 확인되면 언제든 수정될 수 있습니다.
+{: .prompt-info }
+<br/>
