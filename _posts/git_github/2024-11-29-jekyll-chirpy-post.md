@@ -171,6 +171,15 @@ _Post image example results_
 `chirpy` Theme에서 post를 작성하기 위한 방법에 대해서 정리하였습니다.<br/>
 post를 배포하는 방법은 [여기](https://devistory.github.io/posts/github-page/#github-page-%EB%B0%B0%ED%8F%AC "github-page")를 참조하시기 바랍니다.
 
+<br/>
+
+📑 **참고 자료**
+- [JSDevBlog](https://jason9288.github.io/posts/github_blog_1/)
+- [하얀눈길 블로그](https://www.irgroup.org/posts/jekyll-chirpy/)
+- [Dodev 블로그](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)
+- [NUGALOG 블로그](https://nugabox.github.io/posts/jekyll-Chirpy%EB%A1%9C-GitHub-Pages-%EB%A7%8C%EB%93%A4%EA%B8%B0/#branch-%EB%B3%80%EA%B2%BD)
+- [JJIKIN 블로그](https://jjikin.com/posts/Jekyll-Chirpy-%ED%85%8C%EB%A7%88%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0(2023-6%EC%9B%94-%EA%B8%B0%EC%A4%80)/)
+- [Simple Record 블로그](https://friendlyvillain.github.io/posts/chirpy-setup/)
 
 <br/>
 > 해당 글은 잘못되거나 새로운 내용이 확인되면 언제든 수정될 수 있습니다.

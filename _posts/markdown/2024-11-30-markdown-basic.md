@@ -423,6 +423,11 @@ _Line Breaks Example results_
 `GitHub Page`에 글을 쓰기 위해서 `Markdown`을 정리하였습니다. `Markdown`은 `GitHub Page` 이외에 Project의 Readme 파일 등을 작성할 때도 사용되니 다양하게 활용할 수 있을 것 같습니다.
 
 
+<br/>
+
+📑 **참고 자료**
+- [Inpa Dev](https://inpa.tistory.com/entry/MarkDown-📚-마크다운-문법-💯-정리)
+
 
 <br/>
 > 해당 글은 잘못되거나 새로운 내용이 확인되면 언제든 수정될 수 있습니다.

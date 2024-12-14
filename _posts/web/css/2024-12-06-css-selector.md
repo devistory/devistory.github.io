@@ -1,6 +1,6 @@
 ---
 title: CSS 선택자(Selector) 문법 정리
-date: 2024-12-03 00:00:00 +09:00
+date: 2024-12-06 00:00:00 +09:00
 description: CSS 선택자(Selector)에 대한 문법 정리
 categories: [Web, Front-End]
 tags: [Front-End, CSS]
@@ -614,9 +614,9 @@ _Pseudo elements example result_
 <br/>
 
 📑 **참고 자료**
-- <https://www.w3schools.com/css/default.asp>
-- <https://www.tcpschool.com/css/intro>
-- <https://inpa.tistory.com/entry/CSS-📚-선택자-문법-정리-심화#기본_선택자>
+- [w3schools](https://www.w3schools.com/css/default.asp)
+- [tcpschool](https://www.tcpschool.com/css/intro)
+- [Inpa Dev 블로그](https://inpa.tistory.com/entry/CSS-📚-선택자-문법-정리-심화#기본_선택자)
 
 <br/>
 
@@ -630,3 +630,4 @@ _Pseudo elements example result_
 > 해당 글은 잘못되거나 새로운 내용이 확인되면 언제든 수정될 수 있습니다.
 {: .prompt-info }
 <br/>
+
