@@ -94,7 +94,7 @@ export default function LoginPage(){
                     password,
                 });
                 localStorage.setItem('accessToken', response.data.accessToken);
-                navigate('/');
+                navigate('/', {replace: true});
             } catch (error) {
                 console.log(error);
                 alert('Login failed!');
